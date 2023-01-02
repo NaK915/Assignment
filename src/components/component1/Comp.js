@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import './comp.css'
 
 export default class Comp extends Component {
     constructor(props){
@@ -13,13 +14,12 @@ export default class Comp extends Component {
     }
   render() {
     return (
-      <div>
+      <div className='select'>
         <select name='dropdown' value={this.state.value} onChange={this.onSelect}>
-            <option value='' defaultValue>Select Something</option>
-            <option value="1">1</option>
-            <option value='2'>2</option>
-            <option value='3'>3</option>
-            <option value='4'>4</option>
+            <option value='' defaultValue>Select Company Name</option>
+            <option value="Colorbar, HSR">ColorBar</option>
+            <option value='Nike, Whitefield'>Nike</option>
+            <option value='Adidas, BTM'>Adidas</option>
         </select>
       </div>
     )

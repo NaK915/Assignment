@@ -1,0 +1,155 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.cmp2{
+    height: 80vh;
+    width: 100vw;
+    margin-top: 3vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cmp2 hr{
+    border-top: 1px solid #bbbbbb;
+    width: 98vw;
+    margin-bottom: 3vh;
+}
+
+.cmp2 .headrow{
+    max-width: 100vw;
+    display: flex;
+    flex-direction: row;
+    font-size: 1.4em;
+    font-weight: 500;
+    margin-bottom: 2vh;
+    color: #5a5a5a;
+}
+.cmp2 .headrow span{
+    margin-right: 2vw;
+}
+.cmp2 .headrow span:nth-child(3){
+    color: #000000;
+    font-weight: 700;
+}
+.cmp2 .headrow span:nth-child(4){
+    margin-right: 24vw;
+}
+.cmp2 .headrow .filters select{
+    font-size: 0.5em;
+    color: #5a5a5a;
+    height: 3.5vh;
+    padding: 0.4em;
+    font-weight: 600;
+    border-radius: 2em;
+    margin-right: 1vw;
+    border: 1px solid #bbbbbb;
+}
+
+.cmp2 .card{
+    background-color: #ffffff;
+    width: 98vw;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 5px #dddddd;
+}
+.cmp2 .card .area{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 60vh;
+}
+.cmp2 .card .area .search{
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+    display: flex;
+    flex-direction: row;
+}
+.cmp2 .card .area .search input{
+    width: 20vw;
+    font-size: 1.1em;
+    color: #5a5a5a;
+    padding: 0.5em;
+    border: 1px solid #bbbbbb;
+    border-radius: 0.3em;
+    margin-right: 60vw;
+}
+.cmp2 .card .area .search input::placeholder{
+    color: #bbbbbb;
+}
+
+.cmp2 .card .area .search select{
+    font-size: 0.9em;
+    color: #5a5a5a;
+    height: 4vh;
+    padding: 0.4em;
+    font-weight: 600;
+    border-radius: 2em;
+    border: 1px solid #bbbbbb;
+}
+
+.cmp2 .card .area .headers{
+    width: 99%;
+    display: flex;
+    flex-direction: column;
+}
+.cmp2 .card .area .headers hr{
+    width: 100%;
+    outline: none;
+    height: 0;
+    border-top: 1px solid #bbbbbb;
+}
+.cmp2 .card .area .headers .headings{
+    margin-left: 2vw;
+    display: flex;
+    flex-direction: row;
+    font-size: 1.2em;
+    font-weight: 500;
+    margin-bottom: 2vh;
+}
+.cmp2 .card .area .headers span{
+    margin-right: 3vw;
+}
+.cmp2 .card .area .headers span:nth-child(8){
+    margin-right: 0;
+}
+.cmp2 .card .area .headers span:nth-child(2){
+    margin-right: 2vw;
+}
+.cmp2 .card .area .headers span:nth-child(3){
+    margin-right: 6vw;
+}
+.cmp2 .card .area .headers span:nth-child(4){
+    margin-right: 2vw;
+}
+.cmp2 .card .area .headers span:nth-child(5){
+    margin-right: 2vw;
+}
+.cmp2 .card .area .headers span:nth-child(6){
+    margin-right: 2vw;
+}
+.cmp2 .card .area .headers span:nth-child(7){
+    margin-right: 2vw;
+}
+
+.cmp2 .card .area .rows{
+    display: flex;
+    flex-direction: column;
+}
+
+.cmp2 .card .foot{
+    background-color: #f8f8ff;
+    padding:1.1em;
+}
+.cmp2 .card .foot button{
+    width: 12vw;
+    margin-left: 1vw;
+    font-size: 0.9em;
+    border-radius: 8px;
+    padding: 0.5em;
+    font-weight: 600;
+    outline: none;
+    background: #fefefe;
+    border: 1px solid #bbbbbb;
+}

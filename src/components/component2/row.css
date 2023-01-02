@@ -1,0 +1,71 @@
+:root{
+    --purple:#6c3bff;
+}
+.row{
+    margin-bottom: 2vh;
+    display: flex;
+    flex-direction: row;
+    width: 99%;
+    color: #5a5a5a;
+    font-weight: 500;
+    font-size: 0.9em;
+}
+.row .orderid{
+    display: flex;
+    flex-direction: column;
+    width: 6vw;
+}
+.row .orderid .id{
+    font-size: 1em;
+    color: var(--purple);
+}
+.row .orderid .timestamp{
+    font-size: 0.7em;
+    color: #aaaaaa;
+}
+.row .store{
+    width: 8vw;
+    margin-left: 4vw;
+}
+.row .add{
+    margin-left: 8vw;
+    width: 15vw;
+}
+.row .dis{
+    width: 3vw;
+    margin-left: 4vw;
+}
+.row .pickup{
+    display: flex;
+    flex-direction: column;
+    margin-left: 6vw;
+    width: 6vw;
+}
+.row .pickup .date{
+    font-size: 0.7em;
+    color: #aaaaaa;
+}
+.row .delivery{
+    display: flex;
+    flex-direction: column;
+    margin-left: 6vw;
+    width: 6vw;
+}
+.row .delivery .date{
+    font-size: 0.7em;
+    color: #aaaaaa;
+}
+.row .charges{
+    width: 3vw;
+    margin-left: 5vw;
+}
+.row .partner{
+    margin-left: 5vw;
+    width: 6vw;
+    text-align: center;
+    font-size: 1.1em;
+    color: #ffffff;
+    background-color: var(--purple);
+    border-radius: 4px;
+    padding: 0.5em;
+}
